@@ -1,4 +1,10 @@
 /* Base Styles */
+
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -157,6 +163,12 @@ ul li {
 .container ul {
     list-style-type: disc;
     margin-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Se ajusta al 95% en pantallas pequeñas */
+    }
 }
 
 
@@ -356,3 +368,5 @@ body.dark-mode {
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 114, 255, 0.5);
 }
+
+
