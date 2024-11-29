@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados - Santiago Bracamonte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div id="preloader">
+    <div class="spinner"></div>
+</div>
+<body>
+    <header>
+        <h1>Certificados</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Quién Soy</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="certificates.html">Certificados</a></li>
+            <li><a href="experience.html">Experiencia</a></li>
+            <li><a href="contact.html">Contácto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Mis Certificados</h2>
+            <p>Aquí puedes ver algunos de mis certificados:</p>
+            <div class="gallery">
+                <img src="Imagenes de certificados/1.png" alt="Certificado 1" onclick="openModal(this)">
+                <img src="Imagenes de certificados/2.png" alt="Certificado 2" onclick="openModal(this)">
+                <img src="Imagenes de certificados/3.png" alt="Certificado 3" onclick="openModal(this)">
+                <img src="Imagenes de certificados/4.png" alt="Certificado 4" onclick="openModal(this)">
+                <img src="Imagenes de certificados/5.png" alt="Certificado 5" onclick="openModal(this)">
+                <img src="Imagenes de certificados/6.png" alt="Certificado 6" onclick="openModal(this)">
+                <img src="Imagenes de certificados/7.png" alt="Certificado 7" onclick="openModal(this)">
+                <img src="Imagenes de certificados/8.png" alt="Certificado 8" onclick="openModal(this)">
+                <img src="Imagenes de certificados/9.png" alt="Certificado 9" onclick="openModal(this)">
+                <img src="Imagenes de certificados/10.png" alt="Certificado 10" onclick="openModal(this)">
+                <img src="Imagenes de certificados/11.png" alt="Certificado 11" onclick="openModal(this)">
+                <img src="Imagenes de certificados/12.png" alt="Certificado 12" onclick="openModal(this)">
+                <img src="Imagenes de certificados/13.png" alt="Certificado 13" onclick="openModal(this)">
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal para ampliar imágenes -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Santiago Bracamonte Suárez</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
